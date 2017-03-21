@@ -13,7 +13,7 @@ body {
 /* General & 'Reset' Stuff */
 
 .container {
-  width: 90%;
+  width: 100%;
   max-width: 768px;
   margin: 0 auto;
   height: 128px;
@@ -21,7 +21,8 @@ body {
 
 .main {
 width: 20%;
-float: left;  
+height: 100%;
+float: left;
 }
 
 .content {
@@ -35,7 +36,7 @@ section {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0 0 20px;
+  margin: 0 0 0px;
 }
 
 li {

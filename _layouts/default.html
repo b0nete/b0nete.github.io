@@ -28,9 +28,22 @@
 
     <div class="container">
     	<div class="main">
-    		<h2>Tutorials</h2>
-    		<h2>Projects</h2>
-    		<h2>My</h2>
+    		<h2>Tutoriales</h2>
+				{% for tutorial in site.categories.tutorials %}
+					<a href="{{ tutorial.url }}">{{ tutorial.title }}</a>
+				{% endfor %}				
+			<br>
+
+    		<h2>Proyectos</h2>
+    		{% for project in site.categories.projects %}
+				<a href="{{ project.url }}">{{ project.title }}</a><br>
+
+			{% endfor %}	
+    		<br>
+
+    		{% for cva in site.categories.cv %}
+  				<a href="{{ cva.url }}" style="text-decoration:none"><h2>Sobre Mi</h2></a>
+			{% endfor %}
     	</div>
     	<div class="content">
     		<section id="main_content">
