@@ -1,16 +1,26 @@
 ---
 layout: default
 title: "Ramos Hnos"
-date: "2015-05-06 02:12:52 +0200"
-author: parkr
-version: 1.0.0
 categories: projects
 ---
+## **Sistema de Gestion para Soderia.**
+---
 
-Hey! After many months of hard work by Jekyll's contributors, we're excited
-to announce the first major release of the project in a long while. v1.0.0 is
-finally here! While the list of improvements and bug fixes is [quite lengthy][history],
-here are the highlights (thanks to [@benbalter](https://twitter.com/BenBalter) for the
-examples and for compiling this list):
+### **Modulos**:  
+- Clientes
+- Proveedores
+- Distribuidores
+- Productos
+- Insumos
+- Stock
+- Ventas
+- Compras
+- Produccion
 
-[Ramos Hnos](https://github.com/b0nete/RamosHnos)
+### **Desarrollo**
+. **Lenguaje:** C# (Visual Studio 2012)  
+. **DB:** MySQL  
+. Crystal Reports
+
+
+[Repositorio GitHub](https://github.com/b0nete/RamosHnos)

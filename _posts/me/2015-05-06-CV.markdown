@@ -1,75 +1,45 @@
 ---
 layout: default
 title: "CV"
-date: "2015-05-06 02:12:52 +0200"
 categories: cv
 ---
 
-<h1>EXPERIENCIA</h1>
-DATA ENTRY (2014-2015)
-Elayion Contact Center
-Movistar (Prismal, Iris, Mercurio), Claro (Stealth).
+### EXPERIENCIA
+---
+**DATA ENTRY** (2014-2015)  
+Elayion Contact Center  
+Movistar (Prismal, Iris, Mercurio), Claro (Stealth).  
 
-SOPORTE TÉCNICO (2015-Actualidad)
+**SOPORTE TÉCNICO** (2015-Actualidad)  
+Elayion Contact Center  
+Instalación, mantención, optimización y actualización de PCs y Redes.  
 
-Elayion Contact Center
+### FORMACIÓN
+---
+**TÉCNICO PROFESIONAL EN ECONOMÍA Y ADMINISTRACIÓN** (2005 – 2011)  
+Instituto Pbro. Demetro Atamañuk (Secundario).  
 
-Instalación, mantención, optimización y actualización de PCs y Redes.
+**ANALISTA DE SISTEMAS** (2012 – 2016)  
+Institución Cervantes.  
+Tesis: Sistema de Gestión Soderia Ramos Hnos (C# + Entity, MySQL, Crystal Reports)  
 
-FORMACIÓN
+**ARMADO Y REPARACIÓN DE PCs** (2003)  
+Instituto Argentino de Computación.  
 
-(2005 – 2011, Secundario)
+**DESAROLLADOR PYTHON** (2014)  
+Cessi, Empleartec.  
+ 
+**CCNA2 R&S **(2016, Actualidad)  
+Cisco, UTN (Facultad Regional Córdoba).  
 
-TÉCNICO PROFESIONAL EN ECONOMÍA Y
+### CONOCIMIENTOS
+---
+**S.O**: Windows, Linux (LPIC 1).  
+**Bases de Datos**: MS SQL, MySQL, Oracle DB, SQL Lite.  
+**Programación**: Python + Django, C#, Visual Basic, HTML, ASP, Java, JS, PHP, AJAX, Ruby.  
+**Seguridad**: Nessus, NMAP, Metasploit, Wireshark, Aircrack, Netcat.  
+**Redes/Telefonía**: TCP/IP, Hubs/Switches, Firewalls/Proxies, Cableado Estructurado y manejo de Herramientas.  
+**Control de Versiones**: Git.  
 
-ADMINISTRACIÓN
-
-Instituto Pbro. Demetro Atamañuk.
-
-(2012 – 2016)
-
-ANALISTA DE SISTEMAS
-
-Institución Cervantes.
-
-Tesis: Sistema de Gestión Soderia Ramos Hnos (C# + Entity, MySQL,
-
-Crystal Reports)
-
-(2003)
-
-ARMADO Y REPARACIÓN DE PCs
-
-Instituto Argentino de Computación.
-
-(2014)
-
-DESAROLLADOR PYTHON
-
-Cessi, Empleartec.
-
-(2016, Actualidad)
-
-CCNA2 R&amp;S (Cisco)
-
-Cisco, UTN (Facultad Regional Córdoba).
-
-CONOCIMIENTOS
-
-S.O: Windows, Linux (LPIC 1).
-
-Base de Datos: MS SQL, MySQL, Oracle DB, SQL Lite.
-
-Programación: Python + Django, C#, Visual Basic, HTML, ASP, Java, JS,
-
-PHP, AJAX, Ruby.
-
-Seguridad: Nessus, NMAP, Metasploit, Wireshark, Aircrack, Netcat.
-
-Redes/Telefonía: TCP/IP, Hubs/Switches, Firewalls/Proxies, Cableado
-
-Estructurado y manejo de Herramientas.
-
-Control de Versiones: Git.
-
+---
 [LinkedIn](https://www.linkedin.com/in/izquierdoedgardo/)

@@ -28,33 +28,52 @@
 
     <div class="container">
     	<div class="main">
-    		<h2>Tutoriales</h2>
-								
-			<br>
+    		<!-- <h2>Tutoriales</h2>
+				 				
+			<br> -->
 
     		<h2>Proyectos</h2>
     		
 				<a href="/projects/2015/05/06/fAPe.html">fAPe</a><br>
 
 			
-				<a href="/projects/2015/05/05/RamosHnos.html">Ramos Hnos</a><br>
+				<a href="/projects/2015/05/06/RamosHnos.html">Ramos Hnos</a><br>
 
 				
     		<br>
 
     		
-  				<a href="/cv/2015/05/05/CV.html" style="text-decoration:none"><h2>Sobre Mi</h2></a>
+  				<a href="/cv/2015/05/06/CV.html" style="text-decoration:none"><h2>Sobre Mi</h2></a>
 			
     	</div>
     	<div class="content">
     		<section id="main_content">
-    		        <p>Hey! After many months of hard work by Jekyll’s contributors, we’re excited
-to announce the first major release of the project in a long while. v1.0.0 is
-finally here! While the list of improvements and bug fixes is [quite lengthy][history],
-here are the highlights (thanks to <a href="https://twitter.com/BenBalter">@benbalter</a> for the
-examples and for compiling this list):</p>
+    		        <p>fAPe es una herramienta creada con el fin de automatizar la creación de un FAKE AP.</p>
 
-<p><a href="https://github.com/b0nete/RamosHnos">Ramos Hnos</a></p>
+<p><strong>Requisitos</strong></p>
+<ul>
+  <li>SO: Linux</li>
+  <li>Interfaces de Red: 2<br />
+<strong>A)</strong> Interfaz con conexión a internet (ETH o WLAN)<br />
+<strong>B)</strong> Interfaz WLAN que soporte modo monitor para crear nuestro FAKE AP y brindar conexión.</li>
+</ul>
+
+<p><strong>Dependencias</strong></p>
+<ul>
+  <li>Python 3.*</li>
+  <li>isc-dhcp-server</li>
+  <li>Hostapd</li>
+</ul>
+
+<p>Para iniciar nuestro FAKE AP se realiza el siguiente prodecimientos utilizando estas herramientas.</p>
+
+<p>1) Se asigna una IP PRIVADA a nuestra interfaz B que va a hacer de FAKE AP.<br />
+2) Se comparte la conexion desde nuestra interfaz A a nuestra interfaz FAKE AP.
+3) Se inicia nuestro servidor DHCP para proveer<br />
+direcciones IP a los objetivos que se conecten a nuestro AP
+4) Se levanta el FAKE AP para esperar la conexion de nuestros objetivos.</p>
+
+<p><a href="https://github.com/b0nete/fAPe">Repositorio fAPe</a></p>
 
     	    </section>
     	</div>      

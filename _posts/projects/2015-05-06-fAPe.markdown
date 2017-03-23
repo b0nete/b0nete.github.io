@@ -1,15 +1,30 @@
 ---
 layout: default
 title: "fAPe"
-author: b0nete
-version: 1.0.0
 categories: projects
 ---
 
-Hey! After many months of hard work by Jekyll's contributors, we're excited
-to announce the first major release of the project in a long while. v1.0.0 is
-finally here! While the list of improvements and bug fixes is [quite lengthy][history],
-here are the highlights (thanks to [@benbalter](https://twitter.com/BenBalter) for the
-examples and for compiling this list):
+fAPe es una herramienta creada con el fin de automatizar la creación de un FAKE AP.
 
-[Ramos Hnos](https://github.com/b0nete/RamosHnos)
+**Requisitos**
+- SO: Linux 
+- Interfaces de Red: 2  
+  **A)** Interfaz con conexión a internet (ETH o WLAN)  
+  **B)** Interfaz WLAN que soporte modo monitor para crear nuestro FAKE AP y brindar conexión.
+
+**Dependencias**
+- Python 3.*
+- isc-dhcp-server
+- Hostapd
+
+
+Para iniciar nuestro FAKE AP se realiza el siguiente prodecimientos utilizando estas herramientas.
+
+1) Se asigna una IP PRIVADA a nuestra interfaz B que va a hacer de FAKE AP.  
+2) Se comparte la conexion desde nuestra interfaz A a nuestra interfaz FAKE AP.
+3) Se inicia nuestro servidor DHCP para proveer  
+direcciones IP a los objetivos que se conecten a nuestro AP
+4) Se levanta el FAKE AP para esperar la conexion de nuestros objetivos.
+
+
+[Repositorio fAPe](https://github.com/b0nete/fAPe)
