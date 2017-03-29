@@ -6,25 +6,24 @@ categories: projects
 
 fAPe es una herramienta creada con el fin de automatizar la creación de un FAKE AP.
 
+![fAPeMAIN]({{ site.baseurl }}/images/fAPeMAIN.png)
+
 **Requisitos**
 - SO: Linux 
 - Interfaces de Red: 2  
   **A)** Interfaz con conexión a internet (ETH o WLAN)  
-  **B)** Interfaz WLAN que soporte modo monitor para crear nuestro FAKE AP y brindar conexión.
+  **B)** Interfaz WLAN que soporte modo monitor para crear nuestro FAKE AP.
 
 **Dependencias**
-- Python 3.*
+- Python 3.6
 - isc-dhcp-server
 - Hostapd
 
 
 Para iniciar nuestro FAKE AP se realiza el siguiente prodecimientos utilizando estas herramientas.
 
-1) Se asigna una IP PRIVADA a nuestra interfaz B que va a hacer de FAKE AP.  
-2) Se comparte la conexion desde nuestra interfaz A a nuestra interfaz FAKE AP.
-3) Se inicia nuestro servidor DHCP para proveer  
-direcciones IP a los objetivos que se conecten a nuestro AP
-4) Se levanta el FAKE AP para esperar la conexion de nuestros objetivos.
-
+1) Se configura nuestro servidor DHCP (isc-server-dhcp)
+2) Se configura nuestro FAKE AP (hostapd)
+3) Se inicia nuestro FAKE AP a la espera de objetivos.
 
 [Repositorio fAPe](https://github.com/b0nete/fAPe)

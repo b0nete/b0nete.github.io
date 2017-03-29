@@ -28,8 +28,11 @@ Instituto Argentino de Computación.
 
 **DESAROLLADOR PYTHON** (2014)  
 Cessi, Empleartec.  
+
+**SCRUM Metodología Agil para proyectos** (2012)
+Institución Cervantes.
  
-**CCNA2 R&S **(2016, Actualidad)  
+**CCNA2 R&S**(2016, Actualidad)  
 Cisco, UTN (Facultad Regional Córdoba).  
 
 ### CONOCIMIENTOS
